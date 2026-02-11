@@ -1,0 +1,9 @@
+{
+  "inbounds": [{"port": 10808, "listen": "127.0.0.1", "protocol": "socks"}],
+  "outbounds": [{
+    "protocol": "vmess",
+    "settings": {"vnext": [{"address": "104.18.23.230", "port": 80, "users": [{"id": "876f8742-1234-4321-abcd-9876543210ab"}]}]},
+    "streamSettings": {"network": "ws", "wsSettings": {"path": "/v2ray-free", "headers": {"Host": "m.facebook.com"}}}
+  }]
+}
+
